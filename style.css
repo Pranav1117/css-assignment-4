@@ -1,0 +1,135 @@
+h1{
+    border: 1px solid red;
+    text-align: center;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, red,green 30%, yellow );
+}
+.home{
+    border: 3px solid crimson;
+    border-radius: 20px;
+    background-color: rgb(83, 200, 200);
+    text-align: center;
+    list-style-position: inside;
+}
+.loremcontainer{
+    border: 1px solid crimson;
+    border-radius: 20px;
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+    margin: 10px;
+   
+    
+}
+.lorem{
+    border: 2px solid green;
+    border-radius: 15px;
+    background-color: aqua;
+    width: 350px;
+    padding: 7px;
+    text-align: center;
+    padding-right: 108px;
+    font-weight: bold;
+}
+.topp{
+    border: 1px solid red;
+    text-align: center;
+    height: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    background-image: radial-gradient( yellow 30%,red);
+}
+.studentlist{
+    border: 2px solid green;
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: radial-gradient(blue 2%, lightgreen);
+
+}
+.names{
+    border: 2px solid crimson;
+    background-color: yellow;
+    color: crimson;
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    font-weight: bold;
+}
+.bestplace{
+    border: 1px solid red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: crimson;
+}
+.offers{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    
+}
+.green{
+    border: 1px solid lightgreen;
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 60px;
+   
+    
+}
+.lightblue{
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+    color: white;
+    font-weight: bolder;
+    height: 60px;
+    
+}
+.blue{
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+}
+.orange{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    font-weight: bolder;
+    
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 100px;
+   
+    
+}
+.black{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 250px;
+    font-size: small;
+    list-style-position: inside;
+    text-align: left;
+    text-size-adjust: auto;
+    
+}
+.wish{
+    border: 1px solid lightskyblue;
+    background-color: lightskyblue;
+    text-align: center;
+   
+    font-weight: bold;
+}
